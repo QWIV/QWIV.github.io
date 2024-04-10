@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const submit = document.getElementById("submi-button");
-    submit.addEventListener("click", (form) => {
-        console.log(form)
+    const form = document.getElementById("form");
+    form.addEventListener("submit", (form) => {
+        console.log(form);
     });
 });
